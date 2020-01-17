@@ -8,12 +8,14 @@ Copy and make note of the remote PC's IP Address
 3.Add the following lines to the end of the .bashrc file if they are not already there:
 
   export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
+  
   export ROS_HOSTNAME=IP_OF_REMOTE_PC
   
 4. Turn on turtlebot and connect it to a monitor via HDMI.
 5. Repeat steps 1-3, this time on the turtlebot, and add these lines to the .bashrc instead:
 
   export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
+  
   export ROS_HOSTNAME=IP_OF_TURTLEBOT
   
 # Date and Time:
