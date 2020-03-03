@@ -71,6 +71,8 @@ This last argument can be changed to whatever name/save location you desire.
 
   roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
   
+  For suda's experiment, map file is suda_experiment.yaml
+  
 This last argument is the path to your map file, if you saved it somewhere else or with a different name you will need to adjust the command accordingly.
 
 4. Click the 2D Pose Estimate button.
