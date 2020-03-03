@@ -60,7 +60,9 @@ This last argument can be changed to whatever name/save location you desire.
 1. ssh into turtlebot with the following command:
 
   ssh pi@IP_OF_TURTLEBOT 
+  
   For the current setup(3/3/20): 192.168.0.150
+  
 2. On a new terminal, run the turtlebot bringup node:
 
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
