@@ -20,7 +20,7 @@ Copy and make note of the remote PC's IP Address
   
 # Date and Time:
 
-Run timesync.sh
+Run:   timesync.sh pi@IP_OF_TURTLEBOT
 
 # SLAM:
 1. ssh into turtlebot with the following command:
