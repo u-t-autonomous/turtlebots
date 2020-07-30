@@ -20,11 +20,7 @@ Copy and make note of the remote PC's IP Address
   
 # Date and Time:
 
-Any time the turtlebot is turned off, it's date and time will become out of sync, since we are using a local network, we have to manually set it's date and time each time it's turned on. To do so, run this command on the turtlebot:
-
-  sudo date MMDDhhmmyyyy.ss
-
-Currently working on a better way to do this.
+Run timesync.sh
 
 # SLAM:
 1. ssh into turtlebot with the following command:
