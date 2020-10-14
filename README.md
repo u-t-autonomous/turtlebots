@@ -1,10 +1,15 @@
 # turtlebots
 # Network Configuration:
 1. On your remote PC, run the following command:
+
   ifconfig
+  
 Copy and make note of the remote PC's IP Address
+
 2. Open the remote PC's .bashrc file:
+
   nano .bashrc
+  
 3.Add the following lines to the end of the .bashrc file if they are not already there:
 
   export ROS_MASTER_URI=http://IP_OF_REMOTE_PC:11311
